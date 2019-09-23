@@ -16,6 +16,14 @@ public class CurrencyConversionBean {
 		
 	}
 
+	
+	public CurrencyConversionBean(Long id, String from) {
+		super();
+		this.id = id;
+		this.from = from;
+	}
+
+
 	public CurrencyConversionBean(Long id, String from, String to, BigDecimal conversionMultiplier, BigDecimal quantity,
 			BigDecimal totalCalculatedAmount, int port) {
 		super();
